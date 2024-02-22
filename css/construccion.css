@@ -1,0 +1,167 @@
+
+.contenedorMax {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+
+}
+
+main {
+    width: 70%;
+    height: max-content;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+.marco {
+    background-image: url('../img/imgBotellas/3botellasSerigrafiaMarco2.jpg');
+    width: 100%;
+    height: 10vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.error {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100%;
+}
+.marca {
+    text-align: center;
+    width: 80%;
+}
+
+
+
+#err {
+    font-size: 25em;
+    font-weight: bold;
+}
+
+.experiencia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: auto;
+    margin-bottom: 2em;
+}
+
+.experiencia p {
+    line-height: 2em;
+    font-style: italic;
+}
+
+.experiencia p:last-child {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+aside {
+    border-left: solid 2px black;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+aside li{
+    list-style: none;
+    line-height: 2em;
+}
+
+aside a, aside a:hover{
+    text-decoration: none;
+    color: black
+}
+
+.experiencia a:hover, .experiencia a{
+    color:black;
+}
+
+.experiencia span {
+    text-decoration: underline;
+}
+
+.noticias h2{
+    margin-bottom: 2em;
+}
+
+h1,h2{ font-family: 'Open Sans', sans-serif;}
+
+/******Responsive*********/
+
+
+/*@media screen and (max-width: 1080px) {}* no es necesario para esta parte*/
+
+@media screen and (max-width: 430px) {
+
+    main{
+        width: 100%;
+    }
+    .contenedorMax{
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .marco{
+        height: 5vh;
+        width: auto;
+    }
+
+    #marca h1{
+        margin-top: 1em;
+        font-size: 1.5em;
+        text-align: center;
+    }
+    #err {
+        font-size: 6em;
+        font-weight: bold;
+    }
+    
+.experiencia p{
+    font-size: 0.7em;
+}
+
+aside{
+    width: 100%;
+    border-left: none;
+    margin-bottom: 1em;
+    border-top: solid 1px black;
+}
+aside li{
+    list-style: none;
+    line-height: 1.5em;
+    font-size: 0.8em;
+}
+
+.noticias h2{
+    margin-top: 1em;
+    text-align: center;
+    font-size: 1.5em;
+  
+}
+
+
+
+}
+
+
