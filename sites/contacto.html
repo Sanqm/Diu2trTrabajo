@@ -35,7 +35,7 @@
         </ul>
       </nav>
       <div class="iconosH">
-        <button class="btnMenu" onclick="menu()">
+        <button class="btnMenu" onclick="menu()" alt="menu minimizado" >
           <svg class="icomenuh" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16">
             <path fill-rule="evenodd"
               d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
@@ -59,28 +59,28 @@
         <form class="contactForm">
           <div>
             <label for="nombre" class="form-label">Nombre: <span>*</span></label>
-            <input type="text" class="form-control inp" id="nombre" aria-describedby="nombre" required>
+            <input type="text" class="form-control inp" id="nombre" aria-describedby="nombre" aria-level="1" required>
           </div>
           <div>
             <label for="apellido" class="form-label">Apellido: </label>
-            <input type="text" class="form-control inp" id="apellido" aria-describedby="apellido">
+            <input type="text" class="form-control inp" id="apellido" aria-describedby="apellido" aria-level="2">
           </div>
           <div>
             <label for="email" class="form-label">Email: <span>*</span></label>
-            <input type="email" class="form-control inp" id="email" aria-describedby="email" required>
+            <input type="email" class="form-control inp" id="email" aria-describedby="email" required aria-level="3">
           </div>
           <div>
             <label for="telefono" class="form-label">Telefono</label>
-            <input type="text" class="form-control inp" id="telefono" aria-describedby="telefono">
+            <input type="text" class="form-control inp" id="telefono" aria-describedby="telefono" aria-level="4">
           </div>
           <div>
             <label for="asunto" class="form-label">Asunto: <span>*</span></label>
-            <input type="text" class="form-control inp" id="asunto" aria-describedby="asunto" required>
+            <input type="text" class="form-control inp" id="asunto" aria-describedby="asunto" required aria-level="5">
           </div>
           <div>
             <label for="mensaje" class="form-label">Mensaje <span>*</span></label>
-            <textarea class="form-control inp" cols="30" rows="5" placeholder="Escriba su mensaje" id="mensaje"
-              required></textarea>
+            <textarea class="form-control inp" cols="30" rows="5" aria-describedby="mensaje" placeholder="Escriba su mensaje" id="mensaje"
+              required aria-level="5" aria-multiline="true"></textarea>
           </div>
           <div>
             <button type="button" id="enviar" class="btn btn-dark">Enviar</button>

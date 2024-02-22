@@ -43,7 +43,7 @@ main{
 }
 
 span{
-    color: red;
+    color:#A80000;
     font-size: 12px;
 }
 
@@ -119,9 +119,11 @@ a, a:visited{text-decoration: none;
 /*Creación de animación para el boton de suscribirse*/
 @keyframes botonSuscribirse {
     0%   {background-color: black;}
-    25%  {background-color:rgba(255, 0, 0, 0.6);}
+    25%  {background-color:rgba(168, 0, 0, 6);}
+    
+
     50%  {background-color: black;}
-    100% {background-color:rgba(255, 0, 0, 0.6);}
+    100% {background-color:rgba(168, 0, 0, 6);}
 }
 
 @keyframes novedades{
