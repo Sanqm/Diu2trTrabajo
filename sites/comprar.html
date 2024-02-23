@@ -36,7 +36,7 @@
       </ul>
     </nav>
     <div class="iconosH">
-      <button class="btnMenu" onclick="menu()" alt="menu minimizado">
+      <button class="btnMenu" onclick="menu()" alt="menu minimizado" aria-hidden="true">
         <svg class="icomenuh" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16">
           <path fill-rule="evenodd"
             d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
@@ -95,37 +95,44 @@
     </div>
 
     <div class="marco2">
-      <button id="btnprecios" onclick="showTable()" >Tabla de precios</button>
+      <button id="btnprecios" onclick="showTable()">Tabla de precios</button>
       <div class="precios">
         <table id="tprecios">
-          <tr>
-            <td>Souto da Fraga</td>
-            <td>10.50€</td>
-          </tr>
-          <tr>
-            <td>Outeiro da Cruz</td>
-            <td>10.50€</td>
-          </tr>
-          <tr>
-            <td>Meiga Dourada</td>
-            <td>15.90€</td>
-          </tr>
-          <tr>
-            <td>Pack Souto da Fraga</td>
-            <td>29€</td>
-          </tr>
-          <tr>
-            <td>Pack Selección</td>
-            <td>25€</td>
-          </tr>
-          <tr>
-            <td>Gran Reserva Meiga Dourada</td>
-            <td>45€</td>
-          </tr>
+          <caption>Lista de Precios Bodegas Conde de Machado</caption>
+          <thead>
+            <tr>
+              <th id="botella"> <abbr title="nombre de la botella o pack">BOTELLA</abbr></td>
+              <th id="precio"> <abbr title="precio por  botella o pack">PRECIO</abbr></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td headers="botella">Souto da Fraga</td>
+              <td headers="precio">10.50€</td>
+            </tr>
+            <tr>
+              <td headers="botella">Outeiro da Cruz</td>
+              <td headers="precio">10.50€</td>
+            </tr>
+            <tr>
+              <td headers="botella">Meiga Dourada</td>
+              <td headers="precio">15.90€</td>
+            </tr>
+            <tr>
+              <td headers="botella">Pack Souto da Fraga</td>
+              <td headers="precio">29€</td>
+            </tr>
+            <tr>
+              <td headers="botella">Pack Selección</td>
+              <td headers="precio">25€</td>
+            </tr>
+            <tr>
+              <td headers="botella">Gran Reserva Meiga Dourada</td>
+              <td headers="precio">45€</td>
+            </tr>
+          </tbody>
         </table>
-   
       </div>
-
   </main>
   <footer>
     <ul class="piePagina">
