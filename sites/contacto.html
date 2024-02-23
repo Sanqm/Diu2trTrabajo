@@ -83,7 +83,7 @@
               required aria-level="5" aria-multiline="true"></textarea>
           </div>
           <div>
-            <button type="button" id="enviar" class="btn btn-dark">Enviar</button>
+            <button type="button" id="enviar" class="btn btn-dark" onclick="datosEnviados()">Enviar</button>
             <input type="checkbox" required id="tcondiciones"><a href="../sites/construccion.html"><label for="tcondiciones"><span>Acepto Términos y
               condiciones</span></label></a>
           </div>
@@ -91,7 +91,7 @@
         <div class="newsLetter susNovedades">
           <h2>Mantente al día de nuestras novedades</h2>
           <h3>Suscribete al newsletter de Bodegas Conde de Machado </h3>
-         <div class="input-group mb-3">
+         <div class="input-group mb-3 col-sm-4 col-md-6">
           <input type="text" class="form-control" placeholder="Email" aria-label="subcripcion mail" >
           <button class="btn btn-outline-secondary" type="button" id="btnsuscriberse" aria-label="boton suscribirse" >Suscribirse</button>
         </div>
@@ -139,6 +139,9 @@
     </div>
   </footer>
   <script>const nav = document.querySelector('.navegador');</script>
+  <script>
+  function datosEnviados(){window.alert("Datos Enviados Correntamente.");} 
+  </script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 
