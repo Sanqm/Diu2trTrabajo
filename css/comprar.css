@@ -127,14 +127,20 @@ td {
 
 }
 
-
 @media screen and (max-width: 1080px) {
-
     .comprar{
         grid-template-columns: 1fr 1fr;
     }
 
 }
+
+@media screen and (max-width: 850px) {
+    .comprar{
+        grid-template-columns: 1fr;
+    }
+
+}
+
 
 
 @media screen and (max-width: 430px) {
