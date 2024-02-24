@@ -184,8 +184,7 @@ main {
   }
 
 
-@media screen and (max-width: 430px) {
-
+@media screen and (max-width: 500px) {
 
   .imgPantalla img {
     height:60vh;
