@@ -17,14 +17,14 @@
   <link rel="stylesheet" href="../css/construccion.css">
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <script src="../js/scripts.js"></script>
+  <script src="../js/scripts.js"></script>
 </head>
 
 <body>
 
   <header>
     <img class="imgLolgo" src="../img/logos/logoCMGrey.PNG" alt="logo">
-    <nav class="navegador activo"  >
+    <nav class="navegador activo">
       <ul class="menuList" id="mlist">
         <li> <a href="../index.html">Inicio</a></li>
         <li> <a href="../sites/construccion.html">Empresa</a> </li>
@@ -35,13 +35,15 @@
       </ul>
     </nav>
     <div class="iconosH">
-      <button class="btnMenu" onclick="menu()" aria-hidden="true" alt="menu minimizado" >
+      <button class="btnMenu" onclick="menu()" aria-hidden="true" alt="menu minimizado">
         <svg class="icomenuh" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16">
           <path fill-rule="evenodd"
             d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
         </svg></button>
-      <a href="../sites/construccion.html"><span class="material-symbols-outlined" title="identificarse">account_circle</span></a>
-      <a href="../sites/construccion.html"><span class="material-symbols-outlined" title="carrito de compra">shopping_cart</span></a>
+      <a href="../sites/construccion.html"><span class="material-symbols-outlined"
+          title="identificarse">account_circle</span></a>
+      <a href="../sites/construccion.html"><span class="material-symbols-outlined"
+          title="carrito de compra">shopping_cart</span></a>
       <select class="idioma" title="selección de idioma">
         <option value="gz">gz</option>
         <option value="en">en</option>
@@ -61,7 +63,8 @@
         <div class="experiencia">
           <p>Parece que la copa esta vacía.</p>
           <p>Estamos trabajando para brindarte la mejor experiencia, en breve implementaremos esta parte de la web.</p>
-          <p>Mientras tanto, puedes disfrutar de nuestros vinos con una película, amigoso bien visitándonos en nuestras <a href="../sites/contacto.html">instalaciones</a></p>
+          <p>Mientras tanto, puedes disfrutar de nuestros vinos con una película, amigoso bien visitándonos en nuestras
+            <a href="../sites/contacto.html">instalaciones</a></p>
           <p>Gracias por tu Visita</p>
         </div>
       </div>
@@ -83,15 +86,12 @@
     </aside>
   </div>
   <div class="marco">
-  <audio autoplay loop>
-    <source src="../multimedia/relaxConstruccion.mp3" type="audio/mp3">
-    <source src="../multimedia/relaxConstruccion.ogg" type="audio/ogg">
-    Tu navegador no soporta audio
-  </audio>    
+    <audio autoplay loop volume="0.1" id="relaxaudio">
+      <source src="../multimedia/relaxConstruccion.mp3" type="audio/mp3">
+      <source src="../multimedia/relaxConstruccion.ogg" type="audio/ogg">
+      Tu navegador no soporta audio
+    </audio>
   </div>
-
-
-
   <footer>
     <ul class="piePagina">
       <li><a href="../sites/contacto.html">Contacto</a></li>
@@ -103,11 +103,15 @@
           title="instagram" alt="icono de instagram"></a>
       <a href="https://es-es.facebook.com/" target="_blank"><img src="../img/icons/icons8-facebook2.svg"
           title="facebook" alt="icono de facebook"></a>
-      <a href="https://twitter.com/?lang=es" target="_blank"><img src="../img/icons/icons8-twitterx.svg" title="X" alt="icono de x"></a>
+      <a href="https://twitter.com/?lang=es" target="_blank"><img src="../img/icons/icons8-twitterx.svg" title="X"
+          alt="icono de x"></a>
     </div>
   </footer>
   <script>const nav = document.querySelector('.navegador');</script>
-
+  <script>
+    var vol = document.getElementById("relaxaudio");
+    vol.volume = 0.1;
+  </script>
 </body>
 
 </html>

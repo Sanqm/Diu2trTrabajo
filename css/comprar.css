@@ -119,6 +119,15 @@ td {
 
 /*///////Responsive//////////////////*/
 
+@media screen and (max-width: 1250px) {
+
+    .comprar{
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+
 @media screen and (max-width: 1080px) {
 
     .comprar{

@@ -118,3 +118,53 @@ main {
   cursor: pointer;
  
 }
+/********************Responsive******************/
+
+@media screen and (max-width: 1080px) {
+
+  .imgPantalla img {
+    height: 60vh;
+    width: 300px;
+  }
+  
+  .panel {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+  }
+  
+
+} 
+
+
+@media screen and (max-width: 430px) {
+
+
+  .imgPantalla img {
+    height:60vh;
+    width: 25em;
+  }
+  
+  .imgPanel{
+    height: 10em;
+    width: auto;
+  }
+
+  .txthistoria h2 {
+    font-size: 1em; 
+    text-align: center;
+  }
+
+   .txthistoria p{
+    font-size: 0.65em;
+
+   } 
+  .btnmostrar {
+    font-size: 10px;
+  }
+
+} 
+
+

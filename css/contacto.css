@@ -169,3 +169,87 @@ a, a:visited{text-decoration: none;
 h5{
    text-align: center;
 }
+
+
+
+
+/***************Responsive**************************/
+
+/*@media screen and (max-width: 1080px) {}* No necesario auto responsive*/
+
+
+@media screen and (max-width: 430px) {
+
+
+    .cabecera h1 {
+        margin-top: 0.5em;
+        font-size: 2.5em;
+    }
+
+    .cabecera h2 {
+        font-size: 1em;
+    }
+
+    .contactForm{
+        width: 100%;
+        height: auto;
+    }
+    .inp {
+        width: 95%;
+        align-self: center;
+    }
+
+    .contactForm label {
+        align-self: flex-start;
+
+    }
+
+    .newsLetter{
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        align-content: center;
+    }
+
+    #enviarP{
+        width: 95%;
+        height: auto;
+    }
+
+    #enviar {
+        width: 30%;
+        font-size: 1em;
+        padding: 0.5em;
+        margin-bottom: 0.5em;
+    }
+
+    .newsLetter h2 {
+        font-size: 1.25em;
+        margin-bottom: 1em;
+    }
+      
+    .newsLetter h3 {
+     font-size: 0.7em;
+     text-align: center;  
+    }
+
+ #inpsuscriberseP{
+    width: 100%;
+    height: auto;
+    align-self: center;
+
+ }
+    #pdatos span{
+        width: 100%;
+       font-size: 0.6em;
+    }
+    iframe {
+    
+        width: 95%;
+        height: auto;
+    }
+   
+    #btnsuscriberse{
+        font-size: 0.8em;
+    }
+}
