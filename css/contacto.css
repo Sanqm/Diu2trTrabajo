@@ -177,6 +177,41 @@ h5{
 
 /*@media screen and (max-width: 1080px) {}* No necesario auto responsive*/
 
+@media screen and (max-width: 1300px) {
+     
+    #btnsuscriberse{
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+     
+    #btnsuscriberse{
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 900px) {
+     
+    #btnsuscriberse{
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+     
+    #btnsuscriberse{
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 500px) {
+     
+    #btnsuscriberse{
+        font-size: 0.8em;
+    }
+}
+
 
 @media screen and (max-width: 430px) {
 
